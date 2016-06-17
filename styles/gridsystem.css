@@ -1,0 +1,41 @@
+%clunmn{
+	position:relative;
+	float:left;
+}
+$rules:(
+	large:$large,
+	medium:$medium,
+	small:$small,
+);
+$num:12;
+@each $rule in map-keys($rules){
+	@for $i from 1 through $num{
+		.#{$rule}-#{$i}{
+				@extend %clunmn;
+		}
+	}
+}
+@each $rule in map-keys($rules){
+	@media screen and(max-width: map-get($rules,$rule)){
+		@for $i from 1 through $num {
+			.#{$rule}-#{$i}{
+				width:percentage($i/$num);
+			}  
+		}
+	}
+}
+@for $i from 5 through 10{
+	.col{
+		@extend %clunmn;
+	}
+	.while-#{$i}-col .col{
+		width:percentage(1/$i);
+	}
+}
+@media screen and(max-width: map-get($rules,'small')){
+	@for $i from 5 through 10{
+		.while-#{$i}-col .col {
+			width:percentage(1);
+		}
+	}
+}

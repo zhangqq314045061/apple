@@ -1,0 +1,24 @@
+$font-path:"../fonts/";
+$image-path:"../../app/images/";
+$large:1680px;
+$medium:1068px;
+$small:736px;
+%clear{
+	content: '';
+	clear:both;
+	display: block;
+}
+$nav-list:(
+	apple:20px,
+	mac:31px,
+	ipad:30px,
+	iphone:48px,
+	watch:44px,
+	tv:20px,
+	music:40px,
+	support:57px,
+	search:20px,
+	bag:18px,
+	);
+
+$color: #08c;

@@ -1,0 +1,21 @@
+%reset{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:16px;
+	font-family: 'myria normal',sans-serif;
+}
+body,ul,li,h1,h2,h3,h4,h5,h6,p{
+	@extend %reset;
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+%posi{
+  position: absolute;
+  margin:auto;
+  top:0;
+  left:0;
+}
