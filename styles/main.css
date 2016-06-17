@@ -309,7 +309,7 @@ a {
 .gn-apple a {
   width: 20px;
   height: 44px;
-  background: url("../../app/images/apple.svg") center center no-repeat;
+  background: url("../images/apple.svg") center center no-repeat;
 }
 
 .gn-mac {
@@ -320,7 +320,7 @@ a {
 .gn-mac a {
   width: 31px;
   height: 44px;
-  background: url("../../app/images/mac.svg") center center no-repeat;
+  background: url("../images/mac.svg") center center no-repeat;
 }
 
 .gn-ipad {
@@ -331,7 +331,7 @@ a {
 .gn-ipad a {
   width: 30px;
   height: 44px;
-  background: url("../../app/images/ipad.svg") center center no-repeat;
+  background: url("../images/ipad.svg") center center no-repeat;
 }
 
 .gn-iphone {
@@ -342,7 +342,7 @@ a {
 .gn-iphone a {
   width: 48px;
   height: 44px;
-  background: url("../../app/images/iphone.svg") center center no-repeat;
+  background: url("../images/iphone.svg") center center no-repeat;
 }
 
 .gn-watch {
@@ -353,7 +353,7 @@ a {
 .gn-watch a {
   width: 44px;
   height: 44px;
-  background: url("../../app/images/watch.svg") center center no-repeat;
+  background: url("../images/watch.svg") center center no-repeat;
 }
 
 .gn-tv {
@@ -364,7 +364,7 @@ a {
 .gn-tv a {
   width: 20px;
   height: 44px;
-  background: url("../../app/images/tv.svg") center center no-repeat;
+  background: url("../images/tv.svg") center center no-repeat;
 }
 
 .gn-music {
@@ -375,7 +375,7 @@ a {
 .gn-music a {
   width: 40px;
   height: 44px;
-  background: url("../../app/images/music.svg") center center no-repeat;
+  background: url("../images/music.svg") center center no-repeat;
 }
 
 .gn-support {
@@ -386,7 +386,7 @@ a {
 .gn-support a {
   width: 57px;
   height: 44px;
-  background: url("../../app/images/support.svg") center center no-repeat;
+  background: url("../images/support.svg") center center no-repeat;
 }
 
 .gn-search {
@@ -397,7 +397,7 @@ a {
 .gn-search a {
   width: 20px;
   height: 44px;
-  background: url("../../app/images/search.svg") center center no-repeat;
+  background: url("../images/search.svg") center center no-repeat;
 }
 
 .gn-bag {
@@ -408,7 +408,7 @@ a {
 .gn-bag a {
   width: 18px;
   height: 44px;
-  background: url("../../app/images/bag.svg") center center no-repeat;
+  background: url("../images/bag.svg") center center no-repeat;
 }
 
 @media only screen and (max-width: 736px) {
@@ -473,61 +473,61 @@ a {
     width: 20px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/apple_small.svg") center center no-repeat;
+    background: url("../images/apple_small.svg") center center no-repeat;
   }
   .gn-mac a {
     width: 31px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/mac_small.svg") center center no-repeat;
+    background: url("../images/mac_small.svg") center center no-repeat;
   }
   .gn-ipad a {
     width: 30px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/ipad_small.svg") center center no-repeat;
+    background: url("../images/ipad_small.svg") center center no-repeat;
   }
   .gn-iphone a {
     width: 48px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/iphone_small.svg") center center no-repeat;
+    background: url("../images/iphone_small.svg") center center no-repeat;
   }
   .gn-watch a {
     width: 44px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/watch_small.svg") center center no-repeat;
+    background: url("../images/watch_small.svg") center center no-repeat;
   }
   .gn-tv a {
     width: 20px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/tv_small.svg") center center no-repeat;
+    background: url("../images/tv_small.svg") center center no-repeat;
   }
   .gn-music a {
     width: 40px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/music_small.svg") center center no-repeat;
+    background: url("../images/music_small.svg") center center no-repeat;
   }
   .gn-support a {
     width: 57px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/support_small.svg") center center no-repeat;
+    background: url("../images/support_small.svg") center center no-repeat;
   }
   .gn-search a {
     width: 20px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/search_small.svg") center center no-repeat;
+    background: url("../images/search_small.svg") center center no-repeat;
   }
   .gn-bag a {
     width: 18px;
     padding: 0 10px;
     height: 44px;
-    background: url("../../app/images/bag_small.svg") center center no-repeat;
+    background: url("../images/bag_small.svg") center center no-repeat;
   }
 }
 
@@ -590,13 +590,13 @@ a {
   position: absolute;
   top: 100px;
   left: 0;
-  background: url(../../app/images/watch_medium.png) center center no-repeat;
+  background: url(../images/watch_medium.png) center center no-repeat;
 }
 
 @media screen and (max-width: 736px) {
   #banner #watch-w #zi-3 ul li:nth-child(1) h2 {
     top: 80px;
-    background: url(../../app/images/watch_small.png) center center no-repeat;
+    background: url(../images/watch_small.png) center center no-repeat;
   }
 }
 
@@ -635,12 +635,12 @@ a {
 #banner #watch-w #tu-3 {
   width: 100%;
   height: 341px;
-  background: url(../../app/images/apple_watch_trio_medium.jpg) center center no-repeat;
+  background: url(../images/apple_watch_trio_medium.jpg) center center no-repeat;
 }
 
 @media screen and (max-width: 736px) {
   #banner #watch-w #tu-3 {
-    background: url(../../app/images/apple_watch_trio_small.jpg) center center no-repeat;
+    background: url(../images/apple_watch_trio_small.jpg) center center no-repeat;
   }
 }
 
@@ -743,21 +743,21 @@ a {
 }
 
 .aside li:nth-child(1) a {
-  background: url(../../app/images/iphone_6s_large.jpg);
+  background: url(../images/iphone_6s_large.jpg);
   background-position: center center;
   background-size: 360px 200px;
   background-repeat: no-repeat;
 }
 
 .aside li:nth-child(2) a {
-  background: url(../../app/images/apple_tv_large.jpg);
+  background: url(../images/apple_tv_large.jpg);
   background-position: center center;
   background-size: 360px 200px;
   background-repeat: no-repeat;
 }
 
 .aside li:nth-child(3) a {
-  background: url(../../app/images/macbook_large.jpg);
+  background: url(../images/macbook_large.jpg);
   background-position: center center;
   background-size: 360px 200px;
   background-repeat: no-repeat;
@@ -765,7 +765,7 @@ a {
 
 .aside li:nth-child(4) a {
   border-right: none;
-  background: url(../../app/images/accessories_large.jpg);
+  background: url(../images/accessories_large.jpg);
   background-position: center center;
   background-size: 360px 200px;
   background-repeat: no-repeat;
@@ -777,23 +777,23 @@ a {
     border-bottom: 2px solid #fff;
   }
   .aside li:nth-child(1) a {
-    background: url(../../app/images/iphone_6s_medium.jpg);
+    background: url(../images/iphone_6s_medium.jpg);
     background-size: 640px 200px;
     background-position: center center;
   }
   .aside li:nth-child(2) a {
     border-right: none;
-    background: url(../../app/images/apple_tv_medium.jpg);
+    background: url(../images/apple_tv_medium.jpg);
     background-size: 640px 200px;
     background-position: center center;
   }
   .aside li:nth-child(3) a {
-    background: url(../../app/images/macbook_medium.jpg);
+    background: url(../images/macbook_medium.jpg);
     background-size: 640px 200px;
     background-position: center center;
   }
   .aside li:nth-child(4) a {
-    background: url(../../app/images/accessories_medium.jpg);
+    background: url(../images/accessories_medium.jpg);
     background-size: 640px 200px;
     background-position: center center;
   }
@@ -804,24 +804,24 @@ a {
     width: 100%;
   }
   .aside li a {
-    background: url(../../app/images/iphone_6s_small.jpg);
+    background: url(../images/iphone_6s_small.jpg);
     background-size: 736px 200px;
     background-position: center center;
     border-right: none;
   }
   .aside li:nth-child(2) a {
-    background: url(../../app/images/apple_tv_small.jpg);
+    background: url(../images/apple_tv_small.jpg);
     background-size: 736px 200px;
     background-position: center center;
   }
   .aside li:nth-child(3) a {
-    background: url(../../app/images/macbook_small.jpg);
+    background: url(../images/macbook_small.jpg);
     background-size: 736px 200px;
     background-position: center center;
     border-right: none;
   }
   .aside li:nth-child(4) a {
-    background: url(../../app/images/accessories_small.jpg);
+    background: url(../images/accessories_small.jpg);
     background-size: 736px 200px;
     background-position: center center;
   }
@@ -848,7 +848,7 @@ a {
 }
 
 .banner-wrapper .redcross-banner .image-redcross-logo {
-  background: url(../../app/images/redcross_banner_large.jpg) no-repeat center center;
+  background: url(../images/redcross_banner_large.jpg) no-repeat center center;
   background-size: 179px 44px;
   width: 179px;
   height: 44px;
